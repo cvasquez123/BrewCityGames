@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="games.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Games</title>
+</head>
+<body>
+      <div class="w3-bar w3-border w3-black">
+           <a href="games.html" class="w3-bar-item w3-button w3-padding-large">Community Games</a> 
+           <a href="profile.html" class="w3-bar-item w3-button w3-padding-large">Profile</a>
+           <a href="connect.html" class="w3-bar-item w3-button w3-padding-large">Connect</a>
+           <a id="logo" href="registration.html">Log out</a>
+      </div>
+      <div class="box">
+       <h1>Welcome to Dice</h1>
+       <h2>Rules</h2>
+        <h3>Rolls doubles wins, no doubles loses</h3>
+   <div id="die1" class="dice"></div>
+   <div id="die2" class="dice"></div>
+   <button onclick="rollDice()">Roll Dice</button>
+   <h2 id="status" style="clear:left;"></h2> 
+      </div>
+
+      <div class="generator">
+      <h1 id="header">Video games you should try</h1>
+      <div id="quoteDisplay">
+          <!--Quote will display here-->
+      </div>
+      <button id="quotebtn" onclick="newQuote()">Game Generator List</button>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

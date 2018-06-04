@@ -1,0 +1,83 @@
+body,
+html {
+  min-height: 100%;
+  background-color: rgba(102, 101, 101, 0.986);
+}
+
+div.dice{
+  float:right;
+  width:60px;
+  background-color:rgb(255, 255, 255);
+  border:rgb(3, 3, 3) 3px solid;
+  padding:20px;
+  font-size: 30px;
+  text-align:center;
+  margin:5px;
+  color:black;
+}
+div.box{
+    background-color:rgb(255, 255, 255);
+    width:500px;
+    padding:30px;
+    border:4px;
+    margin:auto;
+    color:black;
+    text-align: center;
+    margin-top:50px;
+}
+
+#status{
+  color:white;
+}
+
+button{
+  color:rgb(32, 176, 233);
+  background-color: black;
+  padding:10px;
+  border:1px;
+}
+
+#die1{
+  color:rgb(32, 176, 233);
+}
+
+#die2{
+  color:rgb(32, 176, 233);
+}
+
+#status{
+  color:orange;
+}
+
+#logo {
+  float: right;
+  margin-top:7px;
+  margin-right:28px;
+  font-size: 25px;
+}
+
+#logo:hover {
+  color:orange;
+}
+
+#quoteDisplay{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+#header{
+  text-align: center;
+  font-weight: 500;
+  color: orange;
+  font-size: 60px;
+}
+
+#quotebtn{
+  color:orange;
+  background-color:black;
+  margin-left:650px;
+  margin-top:20px;
+  font-size: 20px;
+
+}
